@@ -1,12 +1,12 @@
--- create DATABASE OFFICE;
+create DATABASE OFFICE;
 
 -- Built first
--- CREATE TABLE LOCATIONS(
---     location_id             int     not null,
---     name_of_location        VARCHAR(15),
+CREATE TABLE LOCATIONS(
+    location_id             int     not null,
+    name_of_location        VARCHAR(15),
 
---     PRIMARY key (location_id)
--- );
+    PRIMARY key (location_id)
+);
 
 -- Built Secondly and then department id was altered into it
 CREATE TABLE EMPLOYEE (
