@@ -20,3 +20,8 @@ VALUES ('2', 'Male', '03-02-2001', '2001 4th ave',
 INSERT INTO EMPLOYEE 
 VALUES ('3', 'Male', '09-20-1995', '5642 2nd ave', 
         '14411', 'New York', 'Victor', 'German', '001'   )
+
+-- Next we want to have examples for the relationships 
+
+INSERT INTO LOCATIONS
+        VALUES ('1111', 'Manhattan')

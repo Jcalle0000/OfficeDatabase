@@ -43,6 +43,10 @@ alter table EMPLOYEE add department_id int;
 alter TABLE EMPLOYEE 
 ADD FOREIGN KEY (department_id) REFERENCES DEPARTMENT(department_id);
 
+-- we will give it an age column to demonstrate how to use triggers 
+ALTER TABLE EMPLOYEE
+    add age int;
+
 -- we are not making department_id requied
     -- b/c we may want to add a project and may 
     -- not be sure of what department we want to add it to

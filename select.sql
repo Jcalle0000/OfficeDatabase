@@ -4,7 +4,7 @@ SELECT * FROM EMPLOYEE
 
 -- Empty
 SELECT * FROM  PROJECT
--- Empty
+
 SELECT *FROM   LOCATIONS
--- Not created yet
+-- Empty
 SELECT * FROM WORKS_ON
